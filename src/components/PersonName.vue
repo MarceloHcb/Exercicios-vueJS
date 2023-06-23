@@ -1,5 +1,5 @@
 <script>
-import FormUser from './FormUser.vue';
+
 
 import PersonInfo from './PersonInfo.vue';
 export default {
@@ -8,7 +8,7 @@ export default {
             name: "Marcelo"
         };
     },
-    components: { PersonInfo, FormUser }
+    components: { PersonInfo }
 }
 </script>
 
@@ -22,8 +22,7 @@ export default {
       <PersonInfo />
     </div>
     <div>
-      <h2 class="text-purple-500 font-semibold text-center mb-5">Adicione uma tecnologia</h2>  
-      <FormUser/>
+      <h2 class="text-purple-500 font-semibold text-center mb-5">Adicione uma tecnologia</h2>      
     </div>
   </div>
 </template>
